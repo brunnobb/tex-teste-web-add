@@ -1,0 +1,254 @@
+
+<div class="row"  id="filtPacienteForm" name="filtPacienteForm">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<table  class="table bordered">  
+			<tbody>
+				<tr>
+					<td>Filtros: </td>
+					<td> <input type="text" placeholder="Coloque seu Filtro aqui"  name="pacFilt" id="pacFilt"></td>					
+					<td> <input type="button" class="btn btn-primary" value="Filtrar" onClick="filterPacienteUI()"></td>
+				</tr>
+			</tbody>
+		</table>
+
+
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<table  class="table bordered">  
+			<tbody>
+				<tr>					
+					<td><input type="button" class="btn btn-success" value="Adicionar novo Paciente" onClick="addPacienteUI()"></td>				
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+</div>
+<div class="row"  id="gridPacienteForm" name="gridPacienteForm">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<table  class="table table-hover" name="pacienteGrid" id="pacienteGrid">  
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Nome</th>
+					<th>Celular</th>
+					<th class="hidden-xs">Comercial</th>
+					<th class="hidden-xs">Email</th>					
+					<th>Alterar</th>
+					<th>Excluir</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>				
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="hidden-xs"></td>
+					<td class="hidden-xs"></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+
+
+
+
+<div class="row" id="altPacienteForm" name="altPacienteForm">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<form class="form-horizontal">
+			<fieldset>
+				<table class="table table-hover">
+					<tr>
+						<td>
+							<label>ID:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="ID" name="pacienteId" id="pacienteId" readonly><br/>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<label>Nome:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Nome"  name="pacienteNome" id="pacienteNome">
+						</td>
+					</tr>	
+
+
+
+					<tr>
+						<td>
+							<label>Rua:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Rua"  name="pacienteRua" id="pacienteRua">
+						</td>
+					</tr>		
+
+					<tr>
+						<td>
+							<label>Nr:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Numero"  name="pacienteNr" id="pacienteNr">
+						</td>
+					</tr>		
+
+					<tr>
+						<td>
+							<label>Bairro:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Bairro"  name="pacienteBairro" id="pacienteBairro">
+						</td>
+					</tr>		
+
+					<tr>
+						<td>
+							<label>Complemento:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Complemento"  name="pacienteCompl" id="pacienteCompl">
+						</td>
+					</tr>		
+
+					<tr>
+						<td>
+							<label>CEP:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="CEP"  name="pacienteCep" id="pacienteCep">
+						</td>
+					</tr>	
+
+					<tr>
+						<td>
+							<label>Data Nascimento:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="DD/MM/AAAA"  name="pacienteNasc" id="pacienteNasc">
+						</td>
+					</tr>	
+
+					<tr>
+						<td>
+							<label>Estado Civil:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Estado Civil"  name="pacienteEstciv" id="pacienteEstciv">
+						</td>
+					</tr>	
+
+					<tr>
+						<td>
+							<label>Escolaridade:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Escolaridade"  name="pacienteEscol" id="pacienteEscol">
+						</td>
+					</tr>	
+
+					<tr>
+						<td>
+							<label>Profissao:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Profissao"  name="pacienteProfi" id="pacienteProfi">
+						</td>
+					</tr>	
+
+					<tr>
+						<td>
+							<label>Telefone Residencial:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Telefone Residencial"  name="pacienteTelres" id="pacienteTelres">
+						</td>
+					</tr>	
+
+					<tr>
+						<td>
+							<label>Telefone Celular:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Telefone Celular"  name="pacienteTelcel" id="pacienteTelcel">
+						</td>
+					</tr>	
+
+					<tr>
+						<td>
+							<label>Telefone Comercial:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Telefone Comercial"  name="pacienteTelcom" id="pacienteTelcom">
+						</td>
+					</tr>	
+
+					<tr>
+						<td>
+							<label>Email:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Email"  name="pacienteEmail" id="pacienteEmail">
+						</td>
+					</tr>	
+
+					<tr>
+						<td>
+							<label>Convenio:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Convenio"  name="pacienteConvenio" id="pacienteConvenio">
+						</td>
+					</tr>	
+
+					<tr>
+						<td>
+							<label>Tipo de Plano:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Tipo de Plano"  name="pacienteTpplan" id="pacienteTpplan">
+						</td>
+					</tr>	
+
+					<tr>
+						<td>
+							<label>Numero da Carteira:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Numero da Carteira"  name="pacienteNrcar" id="pacienteNrcar">
+						</td>
+					</tr>	
+
+					<tr>
+						<td>
+							<label>Faltas:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Faltas"  name="pacienteFaltas" id="pacienteFaltas">
+						</td>
+					</tr>	
+
+											
+				</table>
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+
+
+<div class="row"  id="opPacienteForm" name="opPacienteForm">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<input type="button" class="btn btn-success" value="Salvar" onClick="salvarPacienteUI()"></td>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<input type="button" class="btn btn-danger" value="Cancelar" onClick="cancelarPacienteUI()"></td>
+	</div>
+</div>

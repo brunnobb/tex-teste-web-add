@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Clinica Vitalis</title>
+  <meta name="description" content="Clinica Vitalis">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon"  href="img/favicon.ico" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="js/toastmessage-plugin/resources/css/jquery.toastmessage.css" />
+  <link rel="stylesheet" href="js/datepicker/css/datepicker.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/vendor/jquery-1.10.2.min.js"></script> 
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <script src="js/toastmessage-plugin/js/jquery.toastmessage.js"></script>   
+  <script src="js/datepicker/js/bootstrap-datepicker.js"></script>   
+  <script src="js/main.js"></script>  
+  <script src="js/uiChange.js"></script>  
+
+  
+
+  <script src="js/paciente.js"></script>  
+  <script src="js/daoPaciente.js"></script>  
+  <script src="js/pacienteUiChange.js"></script>   
+
+  <script src="js/user.js"></script>  
+  <script src="js/daoUser.js"></script>  
+  <script src="js/userUiChange.js"></script>  
+
+  <script src="js/funcionario.js"></script>  
+  <script src="js/daoFuncionario.js"></script>  
+  <script src="js/funcionarioUiChange.js"></script>  
+
+
+  <script src="js/agenda.js"></script>  
+
+  <script src="js/consultas.js"></script>   
+  <script src="js/daoConsulta.js"></script>   
+  <script src="js/consultasUiChange.js"></script> 
+
+  
+  <script src="js/agendaDia.js"></script>   
+  <script src="js/agendaDiaUiChange.js"></script>  
+  
+  
+  <style>
+  body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  </style>   
+  <script>
+
+  $(function() {
+    checkForUserUI(0);
+    backHome();    
+  });
+
+  </script> 
+</head>
+<body>
+
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#" onclick="backHome()">Clinica Vitalis</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">          
+          <li><a href="#" class="active"  onclick="backHome()">Agenda</a></li>            
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Listagens <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li name="bt_usu" id="bt_usu"><a href="#" onclick="abrirCadUsuarios()">Usuários</a></li>
+              <li class="divider"></li>
+              <li  name="bt_fun" id="bt_fun"><a href="#" onclick="abrirCadFuncionarios()">Funcionários</a></li>
+              <li class="divider"></li>
+              <li  name="bt_pac" id="bt_pac"><a href="#" onclick="abrirCadPacientes()">Pacientes</a></li>              
+              <li class="divider"></li>
+              <li  name="bt_pac" id="bt_pac"><a href="#" onclick="abrirCadConsultas()">Consultas</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-right" id="loginform" name="loginform" onsubmit="return userLogin();">
+          <div class="form-group">
+            <input type="text" placeholder="Login" class="form-control" id='loginuser' name='loginuser'>
+          </div>
+          <div class="form-group">
+            <input type="password" placeholder="Senha" class="form-control"  id='pwduser' name='pwduser'>
+          </div>
+          <button type="submit" class="btn btn-success">Entrar</button>
+        </form>
+
+        <form class="navbar-form navbar-right" id="userdataform" name="userdataform" onsubmit="return userLogout();">
+          <div class="form-group">
+            <input type="text" class="form-control" readonly id="username" name="username">
+          </div>         
+          <button type="submit" class="btn btn-success">Sair</button>
+        </form>
+      </div><!--/.navbar-collapse -->
+    </div>
+  </div>
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1  name='pgTitle' id='pgTitle'>Agenda</h1>      
+    </div>
+  </div>
+
+
+  <div class="container" name='container' id='container'>
+    <div class="well well-large">Faça login para interagir.</div>
+  </div>
+
+  <hr>
+
+  <footer>
+    <p>&copy; TESTE - TEX</p>
+  </footer>
+
+</body>
+</html>

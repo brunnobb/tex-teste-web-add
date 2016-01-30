@@ -1,0 +1,224 @@
+
+<div class="row"  id="filtFuncionarioForm" name="filtFuncionarioForm">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<table  class="table bordered">  
+			<tbody>
+				<tr>
+					<td>Filtros: </td>
+					<td> <input type="text" placeholder="Coloque seu Filtro aqui"  name="funFilt" id="funFilt"></td>					
+					<td> <input type="button" class="btn btn-primary" value="Filtrar" onClick="filterFuncionarioUI()"></td>
+				</tr>
+			</tbody>
+		</table>
+
+
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<table  class="table bordered">  
+			<tbody>
+				<tr>					
+					<td><input type="button" class="btn btn-success" value="Adicionar novo Funcionario" onClick="addFuncionarioUI()"></td>				
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+</div>
+<div class="row"  id="gridFuncionarioForm" name="gridFuncionarioForm">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<table  class="table table-hover" name="funcionarioGrid" id="funcionarioGrid">  
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Nome</th>
+					<th class="hidden-xs">Residencial</th>
+					<th>Celular</th>
+					<th class="hidden-xs">Email</th>					
+					<th>Alterar</th>
+					<th>Excluir</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>				
+					<td></td>
+					<td></td>
+					<td class="hidden-xs"></td>
+					<td></td>
+					<td class="hidden-xs"></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+
+
+
+
+<div class="row" id="altFuncionarioForm" name="altFuncionarioForm">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<form class="form-horizontal">
+			<fieldset>
+				<table class="table table-hover">
+					<tr>
+						<td>
+							<label>ID:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="ID" name="funcionarioId" id="funcionarioId" readonly><br/>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<label>Nome:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Nome"  name="funcionarioNome" id="funcionarioNome">
+						</td>
+					</tr>	
+
+<tr>
+						<td>
+							<label>RG:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="RG"  name="funcionarioRg" id="funcionarioRg">
+						</td>
+					</tr>	
+					<tr>
+						<td>
+							<label>CPF:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="CPF"  name="funcionarioCpf" id="funcionarioCpf">
+						</td>
+					</tr>	
+					<tr>
+						<td>
+							<label>Data Nascimento:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="DD/MM/AAAA"  name="funcionarioNasc" id="funcionarioNasc">
+						</td>
+					</tr>	
+					<tr>
+						<td>
+							<label>Escolaridade:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Escolaridade"  name="funcionarioEscol" id="funcionarioEscol">
+						</td>
+					</tr>	
+					<tr>
+						<td>
+							<label>Telefone Residencial:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Residencial"  name="funcionarioTelres" id="funcionarioTelres">
+						</td>
+					</tr>	
+					<tr>
+						<td>
+							<label>Telefone Celular:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Celular"  name="funcionarioTelcel" id="funcionarioTelcel">
+						</td>
+					</tr>	
+					<tr>
+						<td>
+							<label>Remuneracao:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Remuneracao"  name="funcionarioRemun" id="funcionarioRemun">
+						</td>
+					</tr>	
+					<tr>
+						<td>
+							<label>Email:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Email"  name="funcionarioEmail" id="funcionarioEmail">
+						</td>
+					</tr>	
+					<tr>
+						<td>
+							<label>Data de Admissao:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Data de Admissao"  name="funcionarioAdmiss" id="funcionarioAdmiss">
+						</td>
+					</tr>	
+					<tr>
+						<td>
+							<label>Cargo:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Cargo"  name="funcionarioCargo" id="funcionarioCargo">
+						</td>
+					</tr>												
+
+
+					<tr>
+						<td>
+							<label>Rua:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Rua"  name="funcionarioRua" id="funcionarioRua">
+						</td>
+					</tr>		
+
+					<tr>
+						<td>
+							<label>Nr:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Numero"  name="funcionarioNr" id="funcionarioNr">
+						</td>
+					</tr>		
+
+					<tr>
+						<td>
+							<label>Bairro:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Bairro"  name="funcionarioBairro" id="funcionarioBairro">
+						</td>
+					</tr>		
+
+					<tr>
+						<td>
+							<label>Complemento:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="Complemento"  name="funcionarioCompl" id="funcionarioCompl">
+						</td>
+					</tr>		
+
+					<tr>
+						<td>
+							<label>CEP:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="CEP"  name="funcionarioCep" id="funcionarioCep">
+						</td>
+					</tr>		
+				</table>
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+
+
+<div class="row"  id="opFuncionarioForm" name="opFuncionarioForm">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<input type="button" class="btn btn-success" value="Salvar" onClick="salvarFuncionarioUI()"></td>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<input type="button" class="btn btn-danger" value="Cancelar" onClick="cancelarFuncionarioUI()"></td>
+	</div>
+</div>

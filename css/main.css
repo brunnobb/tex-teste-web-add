@@ -1,0 +1,14 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+ 
+.diaPassado{
+	background-color: rgba(0,0,0,255);
+	background-image: none;
+	text-decoration: line-through;
+}
+
+

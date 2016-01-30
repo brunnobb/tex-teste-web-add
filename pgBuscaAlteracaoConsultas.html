@@ -1,0 +1,160 @@
+
+<div class="row"  id="filtConsultaForm" name="filtConsultaForm">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<table  class="table bordered">  
+			<tbody>
+				<thead>
+					<tr>
+						<th colspan="2">Filtros:</th>
+					</tr>
+				</thead>
+				<tbody>					
+					<tr>												
+						<td>Medico:</td>
+						<td>
+							<select name="conFiltMed" id="conFiltMed"  >								
+							</select>
+						</td>
+						
+					</tr>
+					<tr>												
+						<td>Paciente:</td>
+						<td>
+							<select name="conFiltPac" id="conFiltPac" >								
+							</select>
+						</td>
+
+					</tr>
+					<tr>												
+						<td>Data:</td>						
+						<td> <input type="text" class="datepicker" value="" data-date-format="dd/mm/yyyy" id="conFiltDt">								</td>	  	
+					</tr>
+					<tr>												
+						<td>Hor&aacute;rio:</td>
+						<td>
+							<select name="conFiltHor" id="conFiltHor" >								
+							</select>
+						</td>
+
+					</tr>
+					<tr>
+						<td> <input type="button" class="btn btn-primary btn-block" value="Filtrar" onClick="filterConsultaUI()"></td>
+						<td><input type="button" class="btn btn-success btn-block" value="Nova Consulta" onClick="addConsultaUI()"></td>			
+					</tr>
+				</tbody>
+			</table>
+		</div>	
+	</div>
+
+	<div class="row"  id="gridConsultaForm" name="gridConsultaForm">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<table  class="table table-hover" name="consultaGrid" id="consultaGrid">  
+				<thead>
+					<tr>
+						<th>Id</th>
+						<th class="hidden-xs">Medico</th>
+						<th class="hidden-xs">Cliente</th>
+						<th>Dia</th>
+						<th>Hora</th>					
+						<th>Status</th>
+						<th>Alterar</th>
+						<th>Excluir</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>				
+						<td></td>
+						<td class="hidden-xs"></td>
+						<td class="hidden-xs"></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="row" id="altConsultaForm" name="altConsultaForm">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<form class="form-horizontal">
+				<fieldset>
+					<table class="table table-hover">
+						<tr>
+							<td>
+								<label>ID:</label>
+							</td>
+							<td>
+								<input type="text" placeholder="ID" name="consultaId" id="consultaId" readonly><br/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label>Medico:</label>
+							</td>
+							
+							<td>
+								<select name="consultaMed" id="consultaMed"  >								
+								</select>
+							</td>
+
+						</tr>	
+						<tr>
+							<td>
+								<label>Cliente:</label>
+							</td>
+
+							<td>
+								<select name="consultaCli" id="consultaCli"  >								
+								</select>
+							</td>
+
+						</tr>	
+						<tr>
+							<td>
+								<label>Data:</label>
+							</td>
+							<td>
+								<input type="text" class="datepicker" value="" data-date-format="dd/mm/yyyy" id="consultaDt">	
+							</td>
+						</tr>	
+						<tr>
+							<td>
+								<label>Hor&aacute;rio:</label>
+							</td>
+							<td>								
+								<select name="consultaHr" id="consultaHr"  >								
+								</select>
+							</td>
+						</tr>	
+						<tr>
+							<td>
+								<label>Status:</label>
+							</td>
+							
+							<td>
+								<select name="consultaSt" id="consultaSt"  >								
+									<option value="A">Aberto</option>
+									<option value="C">Cancelado</option>
+									<option value="P">Presente</option>
+									<option value="F">Falta</option>
+								</select>
+							</td>
+						</tr>															
+					</table>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+
+
+
+	<div class="row"  id="opConsultaForm" name="opConsultaForm">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<input type="button" class="btn btn-success" value="Salvar" onClick="salvarConsultaUI()"></td>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<input type="button" class="btn btn-danger" value="Cancelar" onClick="cancelarConsultaUI()"></td>
+		</div>
+	</div>

@@ -1,0 +1,508 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"create",
+				"create_packages"
+			],
+			[
+				"don",
+				"doneSass"
+			],
+			[
+				"anda",
+				"andaFrente"
+			],
+			[
+				"sens",
+				"Sensor3"
+			],
+			[
+				"dista",
+				"distancia1"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "html",
+		"selected_items":
+		[
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ss xml",
+				"Set Syntax: XML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"SETTING",
+				"Preferences: Settings - User"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"prefere",
+				"Preferences: Settings - User"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"ss sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"ss jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"folder",
+				"Project: Refresh Folders"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			],
+			[
+				"htm",
+				"HTMLBeautify"
+			],
+			[
+				"rinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"javas",
+				"Format: Javascript"
+			],
+			[
+				"java",
+				"Format: Javascript"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"reined",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"settinf",
+				"Preferences: Settings - Default"
+			],
+			[
+				"ss sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"reinbde",
+				"Preferences: SublimeLinter Key Bindings – Default"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ss coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"ss babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"valida",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"jshin",
+				"JSHint"
+			],
+			[
+				" pack",
+				"Package Control: Install Package"
+			],
+			[
+				"ss json",
+				"Set Syntax: JSON"
+			],
+			[
+				"ss c",
+				"Set Syntax: C"
+			],
+			[
+				"ss slq",
+				"Set Syntax: SQL"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"cons",
+				"Set Syntax: R Console"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Workspace/BRUNNOBB_REPOSITORIES/html5-projects/PISI - ClinicaVitalis"
+	],
+	"file_history":
+	[
+		"/C/Workspace/BRUNNOBB_REPOSITORIES/html5-projects/PISI - ClinicaVitalis/index.html",
+		"/C/Workspace/BRUNNOBB_REPOSITORIES/html5-projects/PISI - ClinicaVitalis/agenda.html",
+		"/C/Users/Brunno/Downloads/ClinicaVitalis/index.html",
+		"/C/Users/Brunno/Downloads/initializr-verekia-4.0/initializr/index.html",
+		"/C/Workspace/BRUNNOBB_REPOSITORIES/html5-projects/OrienteTour/criative/genuine-full-v-1-1/genuine/contato.html",
+		"/C/Workspace/BRUNNOBB_REPOSITORIES/html5-projects/OrienteTour/criative/genuine-full-v-1-1/genuine/documentos.html",
+		"/C/Workspace/BRUNNOBB_REPOSITORIES/html5-projects/OrienteTour/criative/genuine-full-v-1-1/genuine/dicas.html",
+		"/C/Workspace/BRUNNOBB_REPOSITORIES/html5-projects/OrienteTour/criative/genuine-full-v-1-1/genuine/vistos.html",
+		"/C/Workspace/BRUNNOBB_REPOSITORIES/html5-projects/OrienteTour/criative/genuine-full-v-1-1/genuine/vagas.html",
+		"/C/Workspace/BRUNNOBB_REPOSITORIES/html5-projects/OrienteTour/criative/genuine-full-v-1-1/genuine/sobrenos.html",
+		"/C/Workspace/BRUNNOBB_REPOSITORIES/html5-projects/OrienteTour/criative/genuine-full-v-1-1/genuine/index.html",
+		"/C/Workspace/BRUNNOBB_REPOSITORIES/html5-projects/OrienteTour/criative/genuine-full-v-1-1/genuine/home4.html",
+		"/C/Workspace/BRUNNOBB_REPOSITORIES/html5-projects/OrienteTour/criative/genuine-full-v-1-1/genuine/js/custom.js",
+		"/C/Workspace/BRUNNOBB_REPOSITORIES/html5-projects/OrienteTour/criative/genuine-full-v-1-1/genuine/contact.php",
+		"/C/Workspace/BRUNNOBB_REPOSITORIES/html5-projects/OrienteTour/criative/genuine-full-v-1-1/genuine/account.html",
+		"/C/Workspace/BRUNNOBB_REPOSITORIES/html5-projects/OrienteTour/criative/genuine-full-v-1-1/genuine/alerts.html",
+		"/C/Riot Games/League of Legends/Config/game.cfg",
+		"/C/Riot Games/League of Legends/RADS/projects/lol_launcher/releases/0.0.1.5/deploy/data/config.prop",
+		"/C/Users/Brunno/Desktop/EP2.cc",
+		"/C/Users/Brunno/Downloads/manet-compare.cc",
+		"/C/Workspace/KWI_REPOSITORIES/ReportServer/Options.xml",
+		"/C/Users/Brunno/Dropbox/ReportServerKWI/Options.xml",
+		"/C/Workspace/VERTICALIT/WebLoginProvider/index.js",
+		"/C/Users/Brunno/Google Drive/Sync/pend nova",
+		"/C/Workspace/VERTICALIT/WebLoginProvider/indexcomp.js",
+		"/C/Workspace/VERTICALIT/WebLoginProvider/package.json",
+		"/C/Workspace/VERTICALIT/ColorExDesktop/.gitignore",
+		"/C/Users/Brunno/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Brunno/Downloads/HelloWorld/HelloWorld/src/main/java/com/helloworld/HelloWorld.java",
+		"/C/Users/Brunno/Downloads/HelloWorld/HelloWorld/src/android/AndroidManifest.xml",
+		"/C/Users/Brunno/Downloads/HelloWorld/HelloWorld/build.gradle",
+		"/C/Users/Brunno/Downloads/HelloWorld/HelloWorld/gradlew",
+		"/C/Users/Brunno/Desktop/manseKWI.txt",
+		"/C/Users/Brunno/Desktop/manseMega.txt",
+		"/C/Users/Brunno/Google Drive/Sync/getManseData.sql",
+		"/C/Workspace/flux-test/react-flux-cart-master/js/components/FluxCart.react.js",
+		"/C/Workspace/ReactElectronBase/Main.js",
+		"/C/Workspace/ReactElectronBase/src/js/reactTest.jsx",
+		"/C/Workspace/flux-test/react-flux-cart-master/index.html",
+		"/C/Workspace/ReactElectronBase/src/js/requires.babel.js",
+		"/C/Workspace/ReactElectronBase/src/js/main.js",
+		"/C/Workspace/ReactElectronBase/src/js/bundle.js",
+		"/C/Workspace/ReactElectronBase/_gitignore",
+		"/C/Workspace/ReactElectronBase/app/main.coffee",
+		"/C/Workspace/ReactElectronBase/src/css/bundle.css",
+		"/C/Workspace/ReactElectronBase/build.js",
+		"/C/Workspace/ReactElectronBase/src/index.html",
+		"/home/brunno/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/brunno/Workspace/test/src/js/requires.babel.js",
+		"/home/brunno/Workspace/test/src/js/reactTest.jsx",
+		"/home/brunno/Workspace/test/src/js/main.js",
+		"/home/brunno/Workspace/test/src/js/main.babel.js",
+		"/home/brunno/Workspace/test/build.js",
+		"/home/brunno/Workspace/test/package.json",
+		"/home/brunno/Workspace/test/src/js/bundle.js",
+		"/home/brunno/Workspace/test/node_modules/bootstrap/dist/js/bootstrap.js",
+		"/home/brunno/Workspace/test/src/css/main.sass",
+		"/home/brunno/Workspace/test/node_modules/bootstrap/less/bootstrap.less",
+		"/home/brunno/Workspace/test/node_modules/bootstrap/dist/js/npm.js",
+		"/home/brunno/Workspace/test/node_modules/bootstrap/package.json",
+		"/home/brunno/Workspace/test/node_modules/bootbox/header.txt",
+		"/home/brunno/Workspace/test/node_modules/bootbox/karma.conf.js",
+		"/home/brunno/Workspace/test/src/css/bundle.css",
+		"/home/brunno/Workspace/test/src/css/bundle.min.css",
+		"/home/brunno/Workspace/test/src/index.html",
+		"/home/brunno/Workspace/test/src/css/main.css",
+		"/home/brunno/Workspace/test/node_modules/font-awesome/scss/_variables.scss",
+		"/home/brunno/Workspace/test/node_modules/font-awesome/scss/font-awesome.scss",
+		"/home/brunno/Workspace/test/node_modules/font-awesome/css/font-awesome.css",
+		"/home/brunno/Workspace/test/node_modules/font-awesome/css/font-awesome.min.css",
+		"/home/brunno/.cache/.fr-hiPnup/font-awesome-4.4.0/HELP-US-OUT.txt",
+		"/home/brunno/.cache/.fr-jjC4Lg/font-awesome-4.4.0/HELP-US-OUT.txt",
+		"/home/brunno/Workspace/test/appmain.js",
+		"/home/brunno/Downloads/snes9x-1.52-src/snes9x.h",
+		"/home/brunno/Downloads/snes9x-1.52-src/snes9x.cpp",
+		"/home/brunno/Downloads/snes9x-1.52-src/clip.cpp",
+		"/home/brunno/Downloads/snes9x-1.52-src/65c816.h",
+		"/home/brunno/Downloads/snes9x-1.52-src/c4emu.cpp",
+		"/home/brunno/Downloads/snes9x-1.52-src/crosshairs.h",
+		"/home/brunno/Downloads/snes9x-1.52-src/crosshairs.cpp",
+		"/home/brunno/Workspace/test/src/js/main.coffee",
+		"/home/brunno/Workspace/test/src/js/retest.js",
+		"/home/brunno/Workspace/test/src/js/reacTest.jsx",
+		"/home/brunno/Workspace/test/node_modules/electron-prebuilt/README.md",
+		"/home/brunno/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/brunno/Workspace/test/src/css/main.coffe",
+		"/home/brunno/Workspace/test/build.sh",
+		"/home/brunno/Workspace/test/src/teste.coffee",
+		"/home/brunno/.config/sublime-text-3/Packages/SublimeLinter/Default (Linux).sublime-keymap",
+		"/home/brunno/Workspace/test/version.coffee",
+		"/home/brunno/Workspace/test/src/view/comp.jsx",
+		"/home/brunno/Workspace/test/compie.coffee",
+		"/home/brunno/Workspace/test/teste.coffee",
+		"/home/brunno/Workspace/test/out/js/bundle.js",
+		"/home/brunno/Workspace/test/src/js/main.babel",
+		"/home/brunno/Workspace/test/main.js",
+		"/home/brunno/Workspace/test/src/js/main.bb.js",
+		"/home/brunno/Workspace/test/index.html",
+		"/home/brunno/Workspace/test/bundle.js",
+		"/home/brunno/Workspace/hello-test/package.json",
+		"/home/brunno/Workspace/hello-test/common/models/person.json",
+		"/home/brunno/Workspace/hello-test/node_modules/serve-favicon/README.md",
+		"/home/brunno/Install/android-sdk-linux/SDK Readme.txt",
+		"/home/brunno/Downloads/trecos steh/oi.txt",
+		"/home/brunno/brunnobb@gmail.com/Sync/colorchart.txt",
+		"/home/brunno/brunnobb@gmail.com/Sync/colorchart[Conflict].txt",
+		"/home/brunno/brunnobb@gmail.com/Sync/select report daniel mysql",
+		"/home/brunno/brunnobb@gmail.com/Sync/rel. pendentes kwi.txt",
+		"/home/brunno/.local/share/applications/Android Studio.desktop",
+		"/home/brunno/brunnobb@gmail.com/Sync/PENDENCIAS KWI.txt",
+		"/home/brunno/brunnobb@gmail.com/Sync/Barcodes.txt",
+		"/home/brunno/Install/android-studio/bin/studio.sh",
+		"/home/brunno/Install/android-studio/bin/inspect.sh",
+		"/home/brunno/brunnobb@gmail.com/Sync/KWI/DATA TO DATABASE/Winter2015 national/winter 15 national stock.txt",
+		"/home/brunno/Repositories/KWI-BR/reportserver/SeasonProfitReport.csv",
+		"/home/brunno/Shared/sel itens.txt",
+		"/home/brunno/brunnobb@gmail.com/Sync/KWI/DATA TO DATABASE/Summer14 - import_costs.txt",
+		"/home/brunno/brunnobb@gmail.com/Sync/KWI/DATA TO DATABASE/CUSTO_TECIDO_NACIONAL-fabric VERAO 2015.txt",
+		"/home/brunno/brunnobb@gmail.com/Sync/KWI/DATA TO DATABASE/CUSTO AVIAMENTO_NACIONAL VERAO 2015.txt",
+		"/home/brunno/brunnobb@gmail.com/Sync/KWI/duvidas/categorychart.txt",
+		"/home/brunno/brunnobb@gmail.com/Sync/KWI/duvidas/colorchart.txt",
+		"/home/brunno/brunnobb@gmail.com/Sync/KWI/DATA TO DATABASE/Summer14 - import_order.txt",
+		"/home/brunno/brunnobb@gmail.com/Sync/KWI/DATA TO DATABASE/CONTROLE PRODUTO NACIONAL VERAO 2015.txt",
+		"/home/brunno/brunnobb@gmail.com/Sync/KWI/DATA TO DATABASE/HTD_GROUPS.txt",
+		"/home/brunno/brunnobb@gmail.com/Sync/Materias pendentes Faculdade.txt",
+		"/home/brunno/Desktop/xbind install",
+		"/home/brunno/.xbindkeysrc",
+		"/home/brunno/teste.txt"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mensagem",
+			"popularposts",
+			"layerslider",
+			"válido",
+			"awesome",
+			", );",
+			"bootstr",
+			"bundle",
+			"toastmes",
+			"Notepad",
+			"reactdom.render",
+			"jque",
+			"create_packages",
+			"React",
+			"sass",
+			"test",
+			"1",
+			"req",
+			"ngcncng",
+			"\n\n",
+			"INSERT INTO",
+			"\n",
+			"$HOME/teste.txt",
+			"TCU",
+			"PO",
+			"tcu"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			");\n",
+			"\n",
+			"\nINSERT INTO",
+			"",
+			"$HOME/.xbindkeysrc"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SublimeProject.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 258.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

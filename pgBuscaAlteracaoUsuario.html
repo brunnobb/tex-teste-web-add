@@ -1,0 +1,139 @@
+
+<div class="row"  id="filtUserForm" name="filtUserForm">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<table  class="table bordered">  
+			<tbody>
+				<tr>
+					<td>Filtros: </td>
+					<td> <input type="text" placeholder="Coloque seu Filtro aqui"  name="usuFilt" id="usuFilt"></td>					
+					<td> <input type="button" class="btn btn-primary" value="Filtrar" onClick="filterUserUI()"></td>
+				</tr>
+			</tbody>
+		</table>
+
+
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<table  class="table bordered">  
+			<tbody>
+				<tr>					
+					<td><input type="button" class="btn btn-success" value="Adicionar novo Usuario" onClick="addUserUI()"></td>				
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+</div>
+<div class="row"  id="gridUserForm" name="gridUserForm">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<table  class="table table-hover" name="userGrid" id="userGrid">  
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Id Func.</th>
+					<th>Usuario</th>
+					<th  class="hidden-xs">Senha</th>
+					<th  class="hidden-xs">Permissao</th>
+					<th>Status</th>
+					<th>Alterar</th>
+					<th>Excluir</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="hidden-xs"></td>
+					<td class="hidden-xs"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+
+
+
+
+<div class="row" id="altUserForm" name="altUserForm">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<form class="form-horizontal">
+			<fieldset>
+				<table class="table table-hover">
+					<tr>
+						<td>
+							<label>ID:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="ID" name="userId" id="userId" readonly><br/>
+						</td>
+					</tr>
+					<tr>
+						<td>		
+							<label>Funcionario:</label>
+						</td>
+						<td>
+							<select name="userFId" id="userFId"  >								
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Usuario:</label>
+						</td>
+						<td>
+							<input type="text" placeholder="ID"  name="userName" id="userName">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Senha:</label>
+						</td>
+						<td>
+							<input type="password" placeholder="ID"  name="userPwd" id="userPwd">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Permissao:</label>
+						</td>
+						<td>
+							<select  name="userAdm" id="userAdm">
+								<option value='A'>Administrador</option>
+								<option value='M'>Medico</option>
+								<option value='F'>Funcionario</option>  
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Status:</label>
+						</td>
+						<td>
+							<select  name="userStatus" id="userStatus">
+								<option value='A'>Ativo</option>
+								<option value="I">Inativo</option>
+
+							</select>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+
+
+<div class="row"  id="opUserForm" name="opUserForm">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<input type="button" class="btn btn-success" value="Salvar" onClick="salvarUserUI()"></td>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<input type="button" class="btn btn-danger" value="Cancelar" onClick="cancelarUserUI()"></td>
+	</div>
+</div>
